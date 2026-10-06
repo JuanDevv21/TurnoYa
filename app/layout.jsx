@@ -1,9 +1,11 @@
+import Navbar from "@/components/navbar"
+import './globals.css'
+
 const RootLayout = ({children}) => {
   return (
     <html>
       <body>
-        <head>
-        </head>
+        <nav><Navbar></Navbar></nav>
         <main>
           {children}
         </main>
