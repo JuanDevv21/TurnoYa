@@ -1,0 +1,25 @@
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 130px;
+    background-color: #1F2A44;
+}
+
+.foot div {
+    margin: 20px 180px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.foot span {
+    padding: 5px 1px;
+    cursor: pointer;
+}
+
+.foot p {
+    font-family: 'Dyna';
+    font-size: 28px;
+}

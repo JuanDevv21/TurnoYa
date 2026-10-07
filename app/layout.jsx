@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar"
+import Footer from "@/components/footer"
 import './globals.css'
 
 const RootLayout = ({children}) => {
@@ -10,6 +11,7 @@ const RootLayout = ({children}) => {
           {children}
         </main>
         <footer>
+          <Footer></Footer>
         </footer>
       </body>
     </html>
