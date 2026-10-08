@@ -1,12 +1,12 @@
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #1F2A44;
     max-height: 130px;
 }
 
 .navbar div {
-    margin: 20px 180px;
+    margin: 20px 50px;
     color: white;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .navbar div span {
-    margin: 0px 30px;
+    margin: 0px 50px;
     font-size: 18px;
     cursor: pointer;
 }

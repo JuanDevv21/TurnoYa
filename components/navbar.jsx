@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
         <nav className={styles.navbar}>
             <div>
-                <p style={{fontFamily: 'Dyna', fontSize: '36px'}}>Corte Fino</p>
+                <p style={{fontFamily: 'Dyna', fontSize: '36px'}}>Corte fino</p>
             </div>
             <div>
                 <span>Inicio</span>
