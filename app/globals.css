@@ -28,6 +28,15 @@
   src: url('../fonts/Dynalight/Dynalight-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Clash';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/ClashGrotesk_Complete/ClashGrotesk_Complete/Fonts/WEB/fonts/ClashGrotesk-Extralight.ttf') format('truetype');
+}
+
+
 html {
   height: 100%;
   background-color: white;

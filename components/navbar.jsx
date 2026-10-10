@@ -8,9 +8,9 @@ const Navbar = () => {
                 <p style={{fontFamily: 'Dyna', fontSize: '36px'}}>Corte fino</p>
             </div>
             <div>
-                <span>Inicio</span>
-                <span>Servicios</span>
-                <span>Barberos</span>
+                <span>INICIO</span>
+                <span>SERVICIOS</span>
+                <span>BARBEROS</span>
             </div>
             <div>
                 <p className={styles.btnaccion}>Reservar cita</p>
