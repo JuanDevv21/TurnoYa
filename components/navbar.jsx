@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Link href={'/barberos'}><span>BARBEROS</span></Link>
             </div>
             <div>
-                <p className={styles.btnaccion}>Reservar cita</p>
+                <Link href={'/reservar'}><p className={styles.btnaccion}>Reservar cita</p></Link>
             </div>
         </nav>
         </>
