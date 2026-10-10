@@ -1,0 +1,35 @@
+.barberosProfile {
+    border: 1px solid #C6A75E;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 270px;
+}
+
+.barberosProfile h2 {
+    font-family: "Dyna";
+    font-size: 30px;
+}
+
+.barberosProfile span {
+    font-family: 'Clash';
+    font-weight: 800;
+}
+
+.barberosProfile p {
+    margin-top: 20px;
+    padding: 8px 40px;
+    background-color: #C6A75E;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: "Clash";
+    font-weight: 800;
+}
+
+.barberosProfile p:hover {
+    background-color: #1F2A44;
+}
