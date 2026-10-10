@@ -11,7 +11,7 @@ const Navbar = () => {
             <div>
                 <Link href={'/'}><span>INICIO</span></Link>
                 <Link href={'/servicios'}><span>SERVICIOS</span></Link>
-                <span>BARBEROS</span>
+                <Link href={'/barberos'}><span>BARBEROS</span></Link>
             </div>
             <div>
                 <p className={styles.btnaccion}>Reservar cita</p>
