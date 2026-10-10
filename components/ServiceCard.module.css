@@ -1,0 +1,71 @@
+.tarjeta {
+    width: 858px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.tarjetaSup {
+    border: 1px solid #C6A75E;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.tarjetaSup p {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #1F2A44;
+}
+
+.tarjetaSup span {
+    margin-right: 20px;
+    padding: 9px 15px;
+    color: white;
+    background-color: #1F2A44;
+    border-radius: 20px;
+}
+
+.tarjetaInf {
+    display: flex;
+    height: 38px;
+    justify-content: space-between;
+}
+
+.tarjetaInf div {
+    background-color: #C6A75E;
+    display: flex;
+    align-items: center;
+}
+
+.reservar {
+    width: 217px;
+    border-radius: 0px 0px 100px 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.reservar:hover {
+    background-color: #1F2A44;
+}
+
+.reservar span {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.precio {
+    width: 122px;
+    border-radius: 0px 0px 0px 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.precio span {
+    margin-right: 30px;
+    color: white;
+    font-size: 18px;
+}
