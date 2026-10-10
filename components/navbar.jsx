@@ -1,4 +1,5 @@
 import styles from './navbar.module.css'
+import Link from 'next/link'
 
 const Navbar = () => {
     return (
@@ -8,8 +9,8 @@ const Navbar = () => {
                 <p style={{fontFamily: 'Dyna', fontSize: '36px'}}>Corte fino</p>
             </div>
             <div>
-                <span>INICIO</span>
-                <span>SERVICIOS</span>
+                <Link href={'/'}><span>INICIO</span></Link>
+                <Link href={'/servicios'}><span>SERVICIOS</span></Link>
                 <span>BARBEROS</span>
             </div>
             <div>
