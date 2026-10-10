@@ -1,0 +1,42 @@
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-height: 125px;
+    background-color: #1F2A44;
+}
+
+.foot div {
+    margin: 19px 50px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.foot span {
+    padding: 5px 1px;
+    cursor: pointer;
+}
+
+.foot p {
+    font-family: 'Dyna';
+    font-size: 28px;
+}
+
+.rfooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.rfooter div {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;   
+    gap: 20px;
+}
+
+.rfooter p {
+    font-size: 30px;
+}

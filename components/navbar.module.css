@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2A44;
+    max-height: 130px;
+}
+
+.navbar div {
+    margin: 20px 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar div span {
+    margin: 0px 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnaccion {
+    border: 1px solid #C6A75E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnaccion:hover {
+    background-color: #151d2e;
+}
+
